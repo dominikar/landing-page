@@ -1,0 +1,122 @@
+body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+}
+
+html, body {
+    height: 100%;
+}
+
+#landing-page-container {
+    background: url("../img/bg.jpg") no-repeat;
+    background-size: 100%;
+    float: left;
+    position: relative;
+}
+
+@media (min-width: 1200px) {
+    #landing-page-container {
+        max-width: 60%;
+        height: 100%;
+    }
+}
+
+header #highrise-logo-text {
+    font-weight: bold;
+    letter-spacing: -0.05em;
+}
+
+header #highrise-logo {
+    width: 6em;
+}
+
+header * {
+    display: inline-block;
+    text-align: center;
+    margin: 0.6em 0 0 0.1em;
+}
+
+.promo-text {
+    margin: 2.5em 1.2em 1.2em 1.2em;
+}
+
+@media (max-width: 575.98px) {
+    .promo-text {
+        margin: 1.5em 1.2em 1.2em 1.2em;
+    }
+}
+
+.promo-text h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.7em;
+    font-weight: bold;
+    line-height: 1.1em;
+}
+
+@media (max-width: 575.98px) {
+    .promo-text h2 {
+        font-size: 1em;
+    }
+}
+
+.promo-text .signature {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.promo-list ul {
+    font-size: 0.9em;
+}
+
+.promo-list ul li {
+    line-height: 1.5em;
+    margin-bottom: 0.6em;
+}
+
+.risk-free {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.8em;
+}
+
+.screenshot-box-small, .screenshot-box-big {
+    border: 0.3em solid #a7a7a7;
+    border-radius: 4px;
+    height: auto;
+    background-color: #b3d4fc;
+}
+
+.screenshot-box-small {
+    width: 48%;
+    display: inline-block;
+}
+
+.screenshot-box-small:last-of-type {
+    float: right;
+}
+
+.screenshot-box-big {
+    width: 65%;
+    margin: 8em auto auto;
+    display: block;
+}
+
+.button-see {
+    margin-top: 0.5em;
+    font-size: 1.35em;
+    border: 3px solid #a7a7a7;
+    width: 100%;
+}
+
+.sign-in {
+    border-radius: 0 0 4px 4px;
+    margin-top: 0;
+    font-size: 0.7em;
+    position: absolute;
+    right: 2em;
+    top: -1em;
+    padding-top: 1em;
+}
